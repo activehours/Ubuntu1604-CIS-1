@@ -328,8 +328,8 @@ ubuntu1604cis_rsh_required: false
 ubuntu1604cis_ypbind_required: false
 
 # Time Synchronization
-ubuntu1604cis_time_synchronization: chrony
-# ubuntu1604cis_time_synchronization: ntp
+# ubuntu1604cis_time_synchronization: chrony
+ubuntu1604cis_time_synchronization: ntp
 
 ubuntu1604cis_time_synchronization_servers:
   - 169.254.169.123
